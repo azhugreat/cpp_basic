@@ -11,7 +11,9 @@ private:
 public:
 	Circle();
 	Circle(double radius_);
-	double get_area();
+	double getArea();
+	double getRadius();
+	Circle& setRadius(double radius);
 };
 
 #endif

@@ -144,6 +144,11 @@
   <ItemGroup>
     <ClCompile Include="Circle.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="ObjectAsArgument.cpp" />
+    <ClCompile Include="ObjectAsReturnValue.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="notes.md" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
