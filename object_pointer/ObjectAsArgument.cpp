@@ -5,20 +5,20 @@
 //要想区分二者，只能保留一个。
 /*
 void print(Circle c) {//需要形参到实参的转变，需要拷贝。
-	std::cout << c.get_area() << std::endl;
+	std::cout << c.getArea() << std::endl;
 }
 */
 
 
 void print(Circle& c) {//无需拷贝，性能相对高一点。
-	std::cout << c.get_area() << std::endl;
+	std::cout << c.getArea() << std::endl;
 }
 
 void print(Circle* c) {
-	std::cout << c->get_area() << std::endl;
+	std::cout << c->getArea() << std::endl;
 }
 
-int main() {
+int main_op() {
 	//初始化对象数组的时候不能用auto自动推导类型。
 	Circle ca[] = { 1.0,2.0,3.0 };
 	print(ca[1]);

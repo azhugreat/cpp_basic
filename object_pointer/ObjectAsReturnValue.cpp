@@ -3,7 +3,7 @@
 
 
 
-int main() {
+int main_os() {
 
 	Circle c = { 1.0 };
 	//此处连续声明了三个Circle对象，其地址值得研究。

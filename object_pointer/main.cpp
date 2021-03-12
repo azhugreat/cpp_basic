@@ -26,7 +26,7 @@ int test_object_pionter() {
 	* 隐式调用匿名对象初始化方法初始化一个对象数组。
 	*/
 	Circle ca3[3] = { 2.0, {}, 5.0 };//copy list init， 大括号可以表明调用默认构造方法。
-	Circle ca3[3]{ 2.0, {}, 5.0 }; // list init
+	Circle ca4[3]{ 2.0, {}, 5.0 }; // list init
 
 	// 在函数中声明的对象都在栈上创建,函数返回，则对象被销毁
 	// 为保留对象，你可以用new运算符在堆上创建它
