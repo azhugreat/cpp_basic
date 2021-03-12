@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{9193fa20-e910-4185-9ee3-4d56cab0baf8}</ProjectGuid>
-    <RootNamespace>alohaworld</RootNamespace>
+    <ProjectGuid>{4e211628-7541-4e19-af03-c0dccc8dc11d}</ProjectGuid>
+    <RootNamespace>AbstractionEncapsulation</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -139,7 +139,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="源文件\AlohaWorld.cpp" />
+    <ClCompile Include="Accessor_Mutator.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

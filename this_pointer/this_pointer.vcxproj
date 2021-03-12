@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{9193fa20-e910-4185-9ee3-4d56cab0baf8}</ProjectGuid>
-    <RootNamespace>alohaworld</RootNamespace>
+    <ProjectGuid>{f2150fc7-3d8e-4caa-a059-9bc8ff5a61d8}</ProjectGuid>
+    <RootNamespace>thispointer</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -139,7 +139,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="源文件\AlohaWorld.cpp" />
+    <ClInclude Include="Circle.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Circle.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -15,10 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="AnonymousClass.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="Circle.cpp">
+    <ClCompile Include="CreateObject.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="main.cpp">
@@ -26,8 +23,8 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Circle.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
+    <None Include="notes.md">
+      <Filter>源文件</Filter>
+    </None>
   </ItemGroup>
 </Project>
