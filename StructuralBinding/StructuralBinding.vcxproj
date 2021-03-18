@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{59a9a686-70ec-4c40-9eaa-720af049f87a}</ProjectGuid>
-    <RootNamespace>StackOfIntegers</RootNamespace>
+    <ProjectGuid>{981cc53d-5992-44af-9dff-f61e54ff277a}</ProjectGuid>
+    <RootNamespace>StructuralBinding</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -139,14 +139,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="StackOfIntegers.h" />
+    <Text Include="todo.txt" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="StackOfIntegers.cpp" />
-    <ClCompile Include="TestStackOfIntegers.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="notes.md" />
+    <ClCompile Include="notes.md" />
+    <ClCompile Include="StructuralBindingObject.cpp" />
+    <ClCompile Include="StructuralBindingArray.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

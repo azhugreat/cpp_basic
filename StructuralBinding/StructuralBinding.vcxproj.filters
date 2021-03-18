@@ -15,21 +15,19 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="StackOfIntegers.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
+    <Text Include="todo.txt">
+      <Filter>资源文件</Filter>
+    </Text>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="StackOfIntegers.cpp">
+    <ClCompile Include="StructuralBindingArray.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="TestStackOfIntegers.cpp">
+    <ClCompile Include="StructuralBindingObject.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="notes.md">
+    <ClCompile Include="notes.md">
       <Filter>源文件</Filter>
-    </None>
+    </ClCompile>
   </ItemGroup>
 </Project>
